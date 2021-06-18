@@ -1,0 +1,276 @@
+
+*{
+	font-family: calibri;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+body{
+	/*margin: top right bottom left*/
+	margin: 0;
+	}
+
+#isi{
+	margin: 0;
+	background-color:  #f2f4f4 ;
+	/*	width disini harus diperhatikan karena ke container dalemnya
+	jadi jika width 1000px maka container 1 dan 2 harus 500px dan 500px*/
+	width: 98,5%;
+	font-family: consolas;
+	padding: 10px;
+	display: flex;
+}
+
+#gambar_header{
+	background-image: url("p2.webp");
+	height: 380px;
+	/*artinya backgroundnya akan dipasin di container*/
+	background-size: 100%;
+	/*horizontal  vertical*/
+    background-position: 0px -170px;    
+}
+
+.nav_links a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 20px;
+	float: right;
+	margin-right: 50px; 
+}
+
+.nav_links{
+	list-style: none;
+	background: none;
+}
+
+/* ============= menu =============== */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #515150  ;
+}
+
+ul > li {
+  	float: left;
+  	margin: 0;
+ 	text-align: center;
+}
+
+ul > li a {
+	font-weight: bold;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 17px 146px;
+	text-decoration: none;
+}
+
+ul > li :hover {
+  	background-color: tan;
+}
+
+/* ===================drop down======================
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 140px;
+	text-decoration: none;
+	overflow: hidden;
+	background-color:  #515150 ;
+	border: 0  #515150 ;
+	font-weight: bold;
+}
+
+.dropdown:hover .dropbtn {
+	background-color:tan;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f2f4f4 ;
+	
+	min-width: 140px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 14px 117px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+
+.dropdown-content a:hover {
+	background-color: tan;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* ============teks kotak============ */
+.teks {
+	padding: 15px 25px;
+}
+
+.teks h2{	
+	padding: 0;
+	font-size: 29px;
+	font-weight: bold;
+	line-height: 5px;
+	margin-top: 10px;
+}
+
+.teks a{
+	color: black;
+	text-decoration: none;
+}
+
+.teks a:hover {
+	color: #2980b9;
+}
+
+/* p{
+	white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width: 150ch;
+} */
+
+#teks_p{
+	padding: 5px ;
+	text-align: justify;
+	overflow:hidden;
+	line-height: 20px;
+	height: 135px;
+} 
+
+
+/* ===========kotak puisi========== */
+.kotak{
+	width: 860px;
+	height: 300px;
+	margin: 25px 10px 45px 40px ;
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.gambar{	
+	margin-right: 20px;
+	float:left;
+	
+}
+
+.baca{
+	padding: 5px 5px;
+	margin: 0 10px 15px 0;
+	float: right;
+}
+
+.baca a:hover{
+	color: #2980b9;
+}
+
+/* ================kanan================= */
+
+audio{
+		width: 95%;
+		background-color: #515150;
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	}
+
+select{
+		width: 96%;
+		height: 45px;
+		border-radius: 5%;
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	}
+
+.music_playlist{
+		margin: 24px 20px 5px 25px;
+	}
+
+.right{
+	margin: 20px 15px 10px 25px;
+	width: 280px;
+}
+
+video{
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	margin: 10px;
+}
+
+/* kotak_link_puisi */
+.kotak_link{
+	width: 860px;
+	margin: 20px 10px 20px 40px ;
+	background-color: white;
+}
+
+#teks_judul h2 {
+	padding: 20px 40px 0px 40px;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	margin: 20px;
+}
+
+.teks_isi{
+	font-size: 17px;
+	line-height: 22px;
+	padding: 10px 30px;
+	text-align: justify;
+	
+}
+
+
+ol > li a {
+	text-decoration: none;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	color:black;
+}
+
+ol > li a:hover {
+	color:gray;
+}
+
+footer{
+	background-color:  #515150 ;
+	padding: 15px;
+	text-align: center;
+	clear: both;
+	color: white;
+}
+
+/*Komentar*/
+
+    .header-komentar{
+    	margin-left: 40px;
+    	margin-right: 40px;
+        padding: 5px;
+    }
+
+    .isi-komentar{
+    	margin-bottom: 20px;
+    	margin-left: 40px;
+    	margin-right: 40px;
+        border: 1px #f2f4f4;
+        padding: 5px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
